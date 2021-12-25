@@ -23,12 +23,11 @@ function paintWall1(kleur) {
  paintWall1("Grey");
 
  // Functie met twee parameters
-function paintWalls(north, south) {
-    console.log("The north Wall has been painted " + north);
-    console.log("The south Wall has been painted " + south);   
+function paintWalls(wall, kleur) {
+    console.log("The " + wall +" Wall has been painted " + kleur);
 };
 
-paintWalls('orange', 'grey');
+paintWalls('North', 'Grey');
 
-paintWalls('Grey', 'Orange');
+paintWalls('South', 'Orange');
 
